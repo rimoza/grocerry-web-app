@@ -3,13 +3,20 @@ import { Fragment } from "react";
 const App = () => {
   return (
     <Fragment>
-      <header className="font-nunito">
+      <header>
         <div id="top_nav_bar">
-          <div id="top_navbar_left">
-            <div id="time_work_container">{/* time work */}</div>
-            <div id="contact_container">{/* phone */}</div>
+          <div id="top_navbar_left" className="h-8 bg-secondary hidden md:flex">
+            <div id="time_work_container">
+              <span>Fri 07:00AM - 08:00PM</span>
+            </div>
+            <div id="contact_container">Call us: 00252 63 4585259</div>
           </div>
-          <div id="top_navbar_right">{/* languages */}</div>
+          <div id="top_navbar_right">
+            <div>
+              <span>Lang: Eng</span>
+            </div>
+            <div>Currency: USD</div>
+          </div>
         </div>
         <nav>
           <div id="left">
