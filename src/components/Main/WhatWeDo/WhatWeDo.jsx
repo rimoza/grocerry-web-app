@@ -21,7 +21,7 @@ const WhatWeDo = () => {
     {
       title: "Fast Delivery",
       description: "Week 2 -3 hours after order",
-      img: "/assets/images/delivery.png",
+      img: "/assets/images/truck.png",
     },
     {
       title: "Opening Hours",
