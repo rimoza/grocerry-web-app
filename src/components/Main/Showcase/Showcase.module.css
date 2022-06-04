@@ -1,5 +1,5 @@
 .showcase_container {
-  @apply bg-green-50 flex flex-col items-center justify-center py-10 shadow-sm shadow-gray-500/20;
+  @apply bg-green-50 font-nunito flex flex-col items-center justify-center py-10 shadow-sm shadow-gray-500/20;
 }
 
 .showcase_title {
