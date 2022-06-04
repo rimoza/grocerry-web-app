@@ -1,0 +1,21 @@
+.showcase_container {
+  @apply bg-green-50 flex flex-col items-center justify-center py-10;
+}
+
+.showcase_title {
+  @apply text-center text-4xl font-bold capitalize leading-10 tracking-wide pb-4;
+}
+
+.showcase_desc {
+  @apply text-center  capitalize  tracking-wide pb-4;
+}
+.showcase_btn {
+  @apply flex justify-between items-center px-4 py-2 gap-5;
+}
+.showcase_btn_view {
+  @apply text-center text-white font-bold bg-primary py-1 px-4 rounded-full;
+}
+
+.showcase_btn_normal {
+  @apply text-center text-white font-bold py-1 px-4 bg-tertiary rounded-full;
+}
