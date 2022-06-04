@@ -16,6 +16,14 @@
   @apply text-center text-white font-bold bg-primary py-1 px-4 rounded-full;
 }
 
+.showcase_btn_view:hover {
+  @apply bg-tertiary;
+}
+
 .showcase_btn_normal {
   @apply text-center text-white font-bold py-1 px-4 bg-tertiary rounded-full;
+}
+
+.showcase_btn_normal:hover {
+  @apply bg-primary;
 }
