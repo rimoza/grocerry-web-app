@@ -1,0 +1,15 @@
+.products_container {
+  @apply font-nunito grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 my-20 mx-10;
+}
+
+.products_left {
+  @apply flex flex-col  border rounded-md shadow-md shadow-gray-900/20 cursor-pointer;
+}
+
+.card_over {
+  @apply font-bold bg-white flex flex-col items-center justify-center w-16 h-20 rounded-md shadow-md shadow-gray-700/20;
+}
+
+.btn_container {
+  @apply flex justify-center items-start gap-2 font-bold  bg-primary mx-20 mt-5 mb-10 py-2 max-w-md rounded-full text-white;
+}
