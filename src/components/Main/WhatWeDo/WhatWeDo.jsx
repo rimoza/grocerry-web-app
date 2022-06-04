@@ -42,7 +42,7 @@ const WhatWeDo = () => {
           We help thousands of people reduce food waste
         </p>
       </div>
-      <div className="flex justify-around items-center flex-wrap gap-5">
+      <div className={classes.card}>
         {data.map((item, index) => (
           <Card
             key={index}

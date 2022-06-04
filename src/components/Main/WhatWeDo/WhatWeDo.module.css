@@ -1,9 +1,12 @@
 .container {
-  @apply flex justify-center items-center mt-5 px-2 py-2 bg-white shadow-md shadow-gray-500/30 rounded-md cursor-pointer w-full max-w-md;
+  @apply flex  items-center  px-2 py-2 bg-white shadow-md shadow-gray-500/30 rounded-md cursor-pointer;
 }
 
+.card {
+  @apply flex justify-center items-center flex-wrap gap-10 w-full;
+}
 .card_container {
-  @apply flex flex-col items-center justify-center font-nunito mt-20;
+  @apply flex flex-col   items-center justify-center font-nunito mt-20 mb-20 mx-10;
 }
 
 .card_title {
@@ -14,7 +17,7 @@
 }
 
 .img_container {
-  @apply flex justify-center items-center w-20 h-20 mr-5;
+  @apply flex justify-center items-center w-20 h-20 mr-5 pr-5 border-r border-r-gray-500;
 }
 
 .card_body {
@@ -22,7 +25,7 @@
 }
 
 .card_body h1 {
-  @apply text-xl text-primary font-bold;
+  @apply font-bold;
 }
 
 .card_body p {
