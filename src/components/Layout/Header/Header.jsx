@@ -12,7 +12,7 @@ const Header = () => {
     <header className="font-nunito font-medium tracking-wide">
       <div
         id="top_nav_bar"
-        className="h-8 bg-secondary hidden md:flex justify-evenly items-center"
+        className="h-8  bg-secondary hidden md:flex justify-evenly items-center"
       >
         <div id="top_navbar_left" className="flex gap-5">
           <div
