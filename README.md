@@ -21,3 +21,8 @@ Shawcase
 
 Title: Freshly picked from nature
 Description: We provide you with various fresh grocery with 10% off for every $50 purchase
+
+## What We Do
+
+Title : What we do
+Description : We help thousands of people reduce food waste.
