@@ -1,0 +1,19 @@
+.container {
+  @apply flex justify-center items-center mt-20 px-2 py-2 bg-white shadow-md shadow-gray-500/30 rounded-md cursor-pointer;
+}
+
+.img_container {
+  @apply flex justify-center items-center w-20 h-20 mr-5;
+}
+
+.card_body {
+  @apply flex flex-col justify-center;
+}
+
+.card_body h1 {
+  @apply text-xl text-primary font-bold;
+}
+
+.card_body p {
+  @apply text-sm text-gray-600;
+}
