@@ -1,12 +1,15 @@
 import { Fragment } from "react";
 
 import Header from "./components/Layout/Header/Header";
+import Main from "./components/Main";
 
 const App = () => {
   return (
     <Fragment>
       <Header />
-      <main></main>
+      <main>
+        <Main />
+      </main>
     </Fragment>
   );
 };
