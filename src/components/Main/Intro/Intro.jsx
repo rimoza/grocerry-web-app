@@ -1,4 +1,4 @@
-import classes from "../Products/Products.module.css";
+import classes from "../../Products/Products.module.css";
 import WeeklyOver from "./WeeklyOver";
 
 const TimeOver = ({ value, title }) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import ShoppingCart from "../UI/ShoppingCart";
+import ShoppingCart from "../../UI/ShoppingCart";
 
 const WeeklyOver = () => {
   return (
