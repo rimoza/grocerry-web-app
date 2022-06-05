@@ -1,9 +1,9 @@
 .products_container {
-  @apply font-nunito grid grid-flow-col grid-cols-1  md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-2 my-20 mx-10;
+  @apply font-nunito grid  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-2 my-20 mx-10;
 }
 
 .products_card {
-  @apply flex flex-col  border rounded-md shadow-md w-full max-w-md sm:max-w-sm max-h-[50rem] shadow-gray-900/20 cursor-pointer;
+  @apply flex flex-col  border rounded-md shadow-md  max-h-[50rem] shadow-gray-900/20 cursor-pointer;
 }
 .products_card_rigth {
   @apply flex flex-col  border rounded-md shadow-md   lg:col-span-2 2xl:col-span-4  shadow-gray-900/20 cursor-pointer;
