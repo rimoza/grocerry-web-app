@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscription = () => {
   return (
-    <div className="bg-gray-100/70 flex flex-col justify-center items-center py-10">
+    <div className="bg-white/70 flex flex-col justify-center items-center py-10">
       <div className="">
         <h1 className="uppercase text-center text-2xl text-gray-500 font-nunito font-semibold tracking-wider mb-3">
           Subscribe to our newsletter
@@ -12,7 +12,7 @@ const Subscription = () => {
           Soluta, reprehenderit.
         </p>
       </div>
-      <div className="bg-white w-full max-w-sm sm:max-w-md shadow-md shadow-gray-500/30 flex  items-center   rounded-full  overflow-hidden">
+      <div className="bg-white w-full max-w-sm sm:max-w-md shadow-2xl shadow-gray-500/70 flex  items-center   rounded-full  overflow-hidden">
         <input
           type="email"
           name="email"

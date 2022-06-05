@@ -43,7 +43,7 @@ const Products = () => {
           <h1 className="text-xl font-extrabold mb-3">Fruits and Vegetables</h1>
           <hr />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5">
           {freshFoods.map((freshFood) => (
             <ProductsItem
               key={freshFood.id}
