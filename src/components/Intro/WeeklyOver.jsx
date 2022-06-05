@@ -1,8 +1,6 @@
 import React from "react";
 import ShoppingCart from "../UI/ShoppingCart";
 
-import classes from "./WeeklyOver.module.css";
-
 const WeeklyOver = () => {
   return (
     <div className="text-center">
