@@ -2,7 +2,7 @@ import React from "react";
 import Showcase from "./Showcase/Showcase";
 import WhatWeDo from "./WhatWeDo/WhatWeDo";
 import Products from "../Products/products";
-import Order from "../Order/Order";
+import Order from "./Order/Order";
 
 const Main = () => {
   return (
