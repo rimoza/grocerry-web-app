@@ -14,7 +14,7 @@ const ProductsItem = ({
   img,
 }) => {
   return (
-    <div className=" border rounded flex flex-col  mx-4 my-5 relative">
+    <div className=" border rounded flex flex-col hover:shadow-2xl hover:shadow-gray-500/30  mx-4 my-5 relative">
       <div className="">
         <img src={img} alt="" />
       </div>
