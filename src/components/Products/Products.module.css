@@ -3,10 +3,10 @@
 }
 
 .products_card {
-  @apply flex flex-col  border rounded-md shadow-md row-span-2 shadow-gray-900/20 cursor-pointer;
+  @apply flex flex-col  border rounded-md shadow-md w-full max-w-md sm:max-w-sm max-h-[50rem] shadow-gray-900/20 cursor-pointer;
 }
 .products_card_rigth {
-  @apply flex flex-col  border rounded-md shadow-md   lg:col-span-2  shadow-gray-900/20 cursor-pointer;
+  @apply flex flex-col  border rounded-md shadow-md   lg:col-span-2 2xl:col-span-4  shadow-gray-900/20 cursor-pointer;
 }
 
 .card_over {
