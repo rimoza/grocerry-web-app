@@ -2,7 +2,7 @@ import React from "react";
 
 import classes from "./Products.module.css";
 import { freshFoods } from "../../data";
-import Intro from "../Main/Intro/Intro";
+import Intro from "./Intro/Intro";
 import ShoppingCart from "../UI/ShoppingCart";
 
 const ProductsItem = ({
