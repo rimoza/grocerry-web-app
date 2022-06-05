@@ -59,63 +59,59 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div className={classes.products_card_rigth}>
-          <div className="my-4 text-center mx-5">
-            <h1 className="text-xl font-extrabold mb-3">
-              Fruits and Vegetables
-            </h1>
-            <hr />
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div className=" border rounded flex flex-col  mx-4 my-5">
-              <div className="">
-                <img src="/assets/products/fresh-strawberries.jpeg" alt="" />
-              </div>
-              <h1 className=" font-bold tracking-wide text-center">
-                Fresh Strawberry
-              </h1>
-              <p className="font-extrabold flex justify-center items-center gap-5">
-                <span className="text-red-500 ">$8.99</span>
-                <span className="text-gray-400 line-through">$12.99</span>
-              </p>
-              <div className={classes.btn_container_right}>
-                <ShoppingCartIcon width={20} height={20} />
-                <button className="tracking-wider font-bold">Add Cart</button>
-              </div>
+      <div className={classes.products_card_rigth}>
+        <div className="my-4 text-center mx-5">
+          <h1 className="text-xl font-extrabold mb-3">Fruits and Vegetables</h1>
+          <hr />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+          <div className=" border rounded flex flex-col  mx-4 my-5">
+            <div className="">
+              <img src="/assets/products/fresh-strawberries.jpeg" alt="" />
             </div>
-            <div className=" border rounded flex flex-col  mx-4 my-5">
-              <div className="">
-                <img src="/assets/products/fresh-strawberries.jpeg" alt="" />
-              </div>
-              <h1 className=" font-bold tracking-wide text-center">
-                Fresh Strawberry
-              </h1>
-              <p className="font-extrabold flex justify-center items-center gap-5">
-                <span className="text-red-500 ">$8.99</span>
-                <span className="text-gray-400 line-through">$12.99</span>
-              </p>
-              <div className={classes.btn_container_right}>
-                <ShoppingCartIcon width={20} height={20} />
-                <button className="tracking-wider font-bold">Add Cart</button>
-              </div>
+            <h1 className=" font-bold tracking-wide text-center">
+              Fresh Strawberry
+            </h1>
+            <p className="font-extrabold flex justify-center items-center gap-5">
+              <span className="text-red-500 ">$8.99</span>
+              <span className="text-gray-400 line-through">$12.99</span>
+            </p>
+            <div className={classes.btn_container_right}>
+              <ShoppingCartIcon width={20} height={20} />
+              <button className="tracking-wider font-bold">Add Cart</button>
             </div>
-            <div className=" border rounded flex flex-col  mx-4 my-5">
-              <div className="">
-                <img src="/assets/products/fresh-strawberries.jpeg" alt="" />
-              </div>
-              <h1 className=" font-bold tracking-wide text-center">
-                Fresh Strawberry
-              </h1>
-              <p className="font-extrabold flex justify-center items-center gap-5">
-                <span className="text-red-500 ">$8.99</span>
-                <span className="text-gray-400 line-through">$12.99</span>
-              </p>
-              <div className={classes.btn_container_right}>
-                <ShoppingCartIcon width={20} height={20} />
-                <button className="tracking-wider font-bold">Add Cart</button>
-              </div>
+          </div>
+          <div className=" border rounded flex flex-col  mx-4 my-5">
+            <div className="">
+              <img src="/assets/products/fresh-strawberries.jpeg" alt="" />
+            </div>
+            <h1 className=" font-bold tracking-wide text-center">
+              Fresh Strawberry
+            </h1>
+            <p className="font-extrabold flex justify-center items-center gap-5">
+              <span className="text-red-500 ">$8.99</span>
+              <span className="text-gray-400 line-through">$12.99</span>
+            </p>
+            <div className={classes.btn_container_right}>
+              <ShoppingCartIcon width={20} height={20} />
+              <button className="tracking-wider font-bold">Add Cart</button>
+            </div>
+          </div>
+          <div className=" border rounded flex flex-col  mx-4 my-5">
+            <div className="">
+              <img src="/assets/products/fresh-strawberries.jpeg" alt="" />
+            </div>
+            <h1 className=" font-bold tracking-wide text-center">
+              Fresh Strawberry
+            </h1>
+            <p className="font-extrabold flex justify-center items-center gap-5">
+              <span className="text-red-500 ">$8.99</span>
+              <span className="text-gray-400 line-through">$12.99</span>
+            </p>
+            <div className={classes.btn_container_right}>
+              <ShoppingCartIcon width={20} height={20} />
+              <button className="tracking-wider font-bold">Add Cart</button>
             </div>
           </div>
         </div>
