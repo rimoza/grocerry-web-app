@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nunito: "Nunito, sans-serif",
+        nunito: "Nunito",
+        popsin: "Poppins",
       },
       colors: {
         primary: "#7eb23d",
