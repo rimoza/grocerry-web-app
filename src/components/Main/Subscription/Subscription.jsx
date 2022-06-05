@@ -17,6 +17,7 @@ const Subscription = () => {
           type="email"
           name="email"
           id="email"
+          placeholder="Write your email"
           className="w-full h-full py-2 px-4 text-gray-500 font-semibold font-nunito outline-none"
         />
         <button className="bg-primary py-2 px-2 text-white text-xl font-bold">
