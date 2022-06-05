@@ -159,7 +159,7 @@ export const freshFoods = [
     originalPrice: 5.36,
     description:
       "Treat yourself to the delicious, juicy flavor of Fresh Green Seedless Grapes. These grapes are bursting with flavor and are completely seedles. Prized for their lush, juicy pulp, very sweet flavors, and highly aromatic skins that offer a pleasant chewiness, they are also perfect for creating stunning cheese boards and charcuterie plates by pairing them with fresh cheese, crackers, or delectable meats like prosciutto. If you want to be really creative, you can freeze them and use them and ice cubes that won't melt and release water into your favorite drinks. Treat yourself to the fresh taste of Fresh Red Seedless Grapes.",
-    imgUrl: urlLink + "/fresh-green-seedless-grape",
+    imgUrl: urlLink + "/fresh-green-seedless-grape.jpeg",
   },
   {
     id: "FF-018",
