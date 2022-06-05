@@ -1,5 +1,6 @@
 import React from "react";
-import { ShoppingCartIcon } from "@heroicons/react/outline";
+import ShoppingCart from "../UI/ShoppingCart";
+
 import classes from "./WeeklyOver.module.css";
 
 const WeeklyOver = () => {
@@ -17,9 +18,8 @@ const WeeklyOver = () => {
         repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Impedit, repudiandae.
       </p>
-      <div className={classes.btn_container}>
-        <ShoppingCartIcon width={20} height={20} />
-        <button className="tracking-wider font-bold">Add Cart</button>
+      <div className="mx-20">
+        <ShoppingCart />
       </div>
     </div>
   );

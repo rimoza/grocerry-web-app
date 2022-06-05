@@ -1,3 +1,0 @@
-.btn_container {
-  @apply flex justify-center items-start gap-2 font-bold  bg-primary mx-20 mt-5 mb-10 py-2 max-w-md rounded-full text-white;
-}

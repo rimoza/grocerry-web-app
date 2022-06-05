@@ -4,6 +4,7 @@ import { ShoppingCartIcon } from "@heroicons/react/outline";
 import classes from "./Products.module.css";
 import { freshFoods } from "../../data";
 import Intro from "../Intro/Intro";
+import ShoppingCart from "../UI/ShoppingCart";
 
 const ProductsItem = ({
   name,
@@ -26,9 +27,8 @@ const ProductsItem = ({
       <div className="absolute top-3 left-3 rounded-full w-10 h-10 flex justify-center items-center bg-red-500 shadow-lg hover:shadow-2xl shadow-gray-500/50">
         <span className=" text-white  font-bold">20%</span>
       </div>
-      <div className={classes.btn_container_right}>
-        <ShoppingCartIcon width={20} height={20} />
-        <button className="tracking-wider font-bold">Add Cart</button>
+      <div className="mx-5">
+        <ShoppingCart />
       </div>
     </div>
   );
