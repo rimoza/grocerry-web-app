@@ -282,7 +282,7 @@ export const freshFoods = [
     imgUrl: urlLink + "/pomegranate.jpeg",
   },
   {
-    id: "FF-029",
+    id: "FF-030",
     name: "Pomegranate",
     category: ["Fresh Produce", "Pomegranate"],
     price: 1.98,
@@ -292,7 +292,7 @@ export const freshFoods = [
     imgUrl: urlLink + "/pomegranate.jpeg",
   },
   {
-    id: "FF-030",
+    id: "FF-031",
     name: "Mango Fruit",
     category: ["Fresh Produce", "Mango"],
     price: 0.98,
@@ -302,7 +302,7 @@ export const freshFoods = [
     imgUrl: urlLink + "/mango-fruit.jpg",
   },
   {
-    id: "FF-031",
+    id: "FF-032",
     name: "Beets",
     category: ["Fresh Produce", "Beets"],
     price: 2.44,
