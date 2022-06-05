@@ -3,6 +3,7 @@ import Showcase from "./Showcase/Showcase";
 import WhatWeDo from "./WhatWeDo/WhatWeDo";
 import Products from "../Products/products";
 import Order from "../Products/Order/Order";
+import Subscription from "./Subscription/Subscription";
 
 const Main = () => {
   return (
@@ -11,6 +12,19 @@ const Main = () => {
       <WhatWeDo />
       <Products />
       <Order />
+      <Subscription />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </main>
   );
 };
