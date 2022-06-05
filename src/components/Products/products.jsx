@@ -14,7 +14,7 @@ const ProductsItem = ({
   img,
 }) => {
   return (
-    <div className=" border rounded flex flex-col  mx-4 my-5">
+    <div className=" border rounded flex flex-col  mx-4 my-5 relative">
       <div className="">
         <img src={img} alt="" />
       </div>
@@ -23,6 +23,9 @@ const ProductsItem = ({
         <span className="text-red-500 ">{price}</span>
         <span className="text-gray-400 line-through">{originalPrice}</span>
       </p>
+      <div className="absolute top-3 left-3 rounded-full w-10 h-10 flex justify-center items-center bg-red-500 shadow-lg hover:shadow-2xl shadow-gray-500/50">
+        <span className=" text-white  font-bold">20%</span>
+      </div>
       <div className={classes.btn_container_right}>
         <ShoppingCartIcon width={20} height={20} />
         <button className="tracking-wider font-bold">Add Cart</button>
